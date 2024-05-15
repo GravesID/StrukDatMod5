@@ -63,13 +63,3 @@ public class BinaryTree {
         tree.postOrder(tree.root);
     }
 }
-
- class Node {
-    int data;
-    Node left;
-    Node right;
-
-    public Node(int data) {
-        this.data = data;
-    }
-}
